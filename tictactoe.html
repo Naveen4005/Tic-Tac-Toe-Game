@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="./tictactoe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1>Tic Tac Toe</h1>
+        <table>
+            <tr>
+                <td onclick="onClickB1()">
+                    <p id="b1"></p>
+                </td>
+                <td onclick="onClickB2()">
+                    <p id="b2"></p>
+                </td>
+                <td onclick="onClickB3()">
+                    <p id="b3"></p>
+                </td>
+            </tr>
+            <tr>
+                <td onclick="onClickB4()">
+                    <p id="b4"></p>
+                </td>
+                <td onclick="onClickB5()">
+                    <p id="b5"></p>
+                </td>
+                <td onclick="onClickB6()">
+                    <p id="b6"></p>
+                </td>
+            </tr>
+            <tr>
+                <td onclick="onClickB7()">
+                    <p id="b7"></p>
+                </td>
+                <td onclick="onClickB8()">
+                    <p id="b8"></p>
+                </td>
+                <td onclick="onClickB9()">
+                    <p id="b9"></p>
+                </td>
+            </tr>
+        </table>
+        <button onclick="onClickReset()">Reset</button>
+    </div>
+    <script src="./tictactoe.js"></script>
+</body>
+</html>
